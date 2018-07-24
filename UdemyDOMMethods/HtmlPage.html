@@ -6,6 +6,97 @@
     <script src="JavaScript.js"></script>
 </head>
 <body>
+    <!-- Methods
 
+        The document comes with a bunch of methods for selecting elements.
+
+        document.getElementById()
+
+        Takes a string argument and returns the one element
+        with a matching ID
+
+        var tag = document.getElementById("highlight");
+
+        document.getElementsByClassName()
+
+        Takes a string argument and returns a list
+        of elements that have a matching class
+
+
+        document.getElementsByTagName()
+
+        Returns a list of all elements of a given tag name
+        like <li>
+
+        document.querySelector()
+
+        Returns the first element that matches a given CSS-Style selector
+
+        document.querySelectorAll()
+
+        Returns a list of elements that matches a given CSS-styles selector
+
+        -->
+    <!-- document.getElementById() -->
+
+    <h1>Hello</h1>
+    <h1>Goodbye</h1>
+    <ul>
+        <li id="highlight">List Item 1</li>
+        <li class="bolded">List Item 2</li>
+        <li class="bolded">List Item 3</li>
+    </ul>
+
+    <!-- In Console
+
+        var tag = document.getElementById("highlight");
+
+        now
+
+        tag
+
+        returns
+
+        <li id="highlight">List Item 1</li>
+
+        console.dir(tag)
+        li#highlight-->
+    <!-- document.getElementsByClassName() -->
+    <!-- var tags = document.getElementsByClassName("bolded")
+
+        now
+        tags
+        returns
+        <li class="bolded">List Item 2</li>
+        <li class="bolded">List Item 3</li>
+
+        these are not arrays, can't run ForEach Loops-->
+    <!-- document.getElementsByTagName() -->
+    <!-- var tags = document.getElementsByTagName("li")
+
+        tags
+
+        returns
+
+        <li id="highlight">List Item 1</li>
+        <li class="bolded">List Item 2</li>
+        <li class="bolded">List Item 3</li>
+        -->
+    <!-- document.querySelector() -->
+    <!-- var h1 = document.querySelector("h1")
+
+        h1
+        returns
+        <h1>Hello</h1>
+        -->
+    <!-- document.querySelectorAll() -->
+    <!-- var lis = document.querySelectorAll("li")
+
+        lis
+        returns
+        <li id="highlight">List Item 1</li>
+        <li class="bolded">List Item 2</li>
+        <li class="bolded">List Item 3</li>
+        -->
 </body>
 </html>
